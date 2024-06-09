@@ -9,7 +9,7 @@ import com.exam.tp.model.Approvisionnement;
 import com.exam.tp.repositories.ApprovisionnementRepository;
 
 @Service
-public class ApprovisionementServiceImpl implements ApprovisionnementService{
+public class ApprovisionnementServiceImpl implements ApprovisionnementService{
     @Autowired
     private ApprovisionnementRepository ApprovisionnementRepository;
 
